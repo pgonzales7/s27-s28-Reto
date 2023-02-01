@@ -7,6 +7,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import { MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 
 
@@ -21,7 +22,8 @@ import { MatFormFieldModule} from '@angular/material/form-field';
 
     ReactiveFormsModule,
     MatSlideToggleModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatInputModule
     
     
   ],
